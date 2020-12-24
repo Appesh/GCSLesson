@@ -142,9 +142,14 @@
   "jestSonar": {
     "reportPath":  "target/test-results/test",
     "reportFile": "TESTS-results-sonar.xml"
+
   }
   "master" {
 	"test": "test"
-  }
+  },
+  
+  "develop" :{
+	"test" : "test"
+	}
 
 }
